@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/icons/desarrollador.png" type="image/x-icon">
+    <title>Portafolio DeV</title>
+</head>
+<body>
+    <header>
+        <h1><a href="#" class="name">Elkin Damian Varas Rodriguez</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#Sobre">Sobre Mi</a></li>
+                <li><a href="#habilidad">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Sobre" class="SB">
+            <div class="sobre">
+                <div class="contSobre">
+                    <h2 id="Sobre">Sobre Mi</h2>
+                    <p> Soy un joven apasionado por aprender lo mas posible sobre programacion. Me gusta el baloncesto, conocer lugares nuevos (si son lugares repletos de naturaleza es mucho mejor) y aprender cada dia, ya sea con experiencias que yo viva o que alguna otra persona me enseñe.</p>    
+                </div>
+                <img src="images/foto.jpg" alt="Selfie mia con una vista nublada de fondo">
+            </div>
+        </section>
+        <section id="habilidad" class="habs">
+            <h2>Habilidades</h2>
+            <div class="habilidades1">
+                <div class="habilidades2">
+                    <h3>HTML</h3>
+                    <img src="images/icons/html-5.png" alt="">
+                </div>
+                <div class="habilidades2">
+                    <h3>CSS</h3>
+                    <img src="images/icons/css-3.png" alt="">
+                </div>
+                <div class="habilidades2">
+                    <h3>JavaScript (Aprendiendo)</h3>
+                    <img src="images/icons/js.png" alt="">
+                </div>
+                <div class="habilidades2">
+                    <h3>JAVA (Aprendiendo)</h3>
+                    <img src="images/icons/java.png" alt="">
+                </div>    
+            </div>
+            
+        </section>
+        <section id="proyectos" class="proyet">
+            <h2>Proyectos</h2>
+            <ul>
+                <li>
+                    <h3>Calculadora de Sistemas de numeracion realizada en C++</h3>
+                    <p>Esta calculadora ayuda a convertir un numero de un sistema numerico (Hexadecimal, decimal, binario u octal) a otro</p>
+                    <img src="/portafolioPrac/images/IMG-20240213-WA0110.jpg" alt="Imagen del logo del proyecto">
+                </li>
+                <li>
+                    <h3>Rompecabeza en HTML, Css Y JavaScript</h3>
+                    <p>Este Proyecto me ayudo a poder practicar de una mejor manera el uso de JavaScript</p>
+                    <img src="images/image.png" alt="imagen referente de como se ve el proyecto">
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            
+            <form action="URL_DE_ENVIO" method="POST">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required placeholder="Tu email">
+          
+              <label for="asunto">Asunto:</label>
+              <input type="text" id="asunto" name="asunto" required placeholder="Asunto de tu mensaje">
+          
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="3" required placeholder="Escribe aquí tu mensaje"></textarea>
+          
+              <button type="submit">Enviar</button>
+            </form>
+          </section>
+    </footer>
+</body>
+</html>
